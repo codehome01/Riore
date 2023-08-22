@@ -1,0 +1,27 @@
+#form{
+    
+    height:38px;
+}
+
+.header-container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    background-color: whitesmoke;
+}
+.header-container > .search{
+    display:flex;
+    display: inline;
+    margin-top: 15px;
+    width:40%;
+}
+
+.header-container > .title{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.header-container > .NavBar{
+    margin-top: 20px;
+}

@@ -1,0 +1,13 @@
+
+
+.footerContainer{
+    display:flex;
+    gap:10px;
+    background-color: whitesmoke;
+}
+
+.icons{
+    display: flex;
+    gap:10px;
+    font-size: 40px;
+}

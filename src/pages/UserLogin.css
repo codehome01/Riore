@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.loginForm{
+    width:70%;
+    margin-top:40px;
+    margin-bottom: 100px;
+    margin-left:12%;
+}
+.userForm{
+    margin-left: 15%;
+    padding-left: 10px;
+}
+.pswForm{
+    padding-left: 10px;
+    margin-left: 15%;
+}
+.rememberPsw{
+    margin-top:5px;
+    margin-left: 15%;
+}
+.forgot{
+    margin-top:5px;
+    margin-left: 15%;
+}
+.Login{
+    margin-top:-25px;
+    margin-right: 15%;
+    float:right;
+    
+}
+.title{
+    text-align: center;
+}
