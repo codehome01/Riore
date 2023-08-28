@@ -1,16 +1,11 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import './Register.css'
-
-const Register = () => {
-  const myStyle ={
-    color:'red',
-    
-  } 
+import './TutorRegister.css'
+const  TutorRegister = () => {
   return (
     <>
-     <div className='registerContainer'>
-        <h1 className='uk-text-primary uk-text-center'> Student Registration</h1><hr/>
+       <div className='TutorRegisterContainer'>
+        <h1 className='uk-text-primary uk-text-center'> Tutor Registration</h1><hr/>
         <form method='POST'>
           <div className='form'>
               <label>Firstname<span> *</span></label><br />
@@ -33,8 +28,20 @@ const Register = () => {
               </select>
           </div>
           <div className='form'>
-              <label>Class<span>*</span></label><br />
-              <input type='text' name='' className='class' placeholder='Class' required />
+              <label>Discipline<span>*</span></label><br />
+              <input type='text' name='' className='discipline' placeholder='Discipline' required />
+          </div>
+          <div className='form'>
+              <label>Pnone No<span>*</span></label><br />
+              <input type='text' name='' className='phone' placeholder='Phone No.' required />
+          </div>
+          <div className='form'>
+              <label>Email<span>*</span></label><br />
+              <input type='email' name='' className='email' placeholder='Email Address' required />
+          </div>
+          <div className='form'>
+              <label>What are the Programming Technology You are Good At?<span>*</span></label><br />
+              <textarea type='text' cols='60'  className='specialization' placeholder='eg python, java, php,javascript etc' required />
           </div>
           <div className='form'>
               <label>State<span>*</span></label><br />
@@ -53,7 +60,7 @@ const Register = () => {
             <input type='file' name='image' className='upload' placeholder='image' required />
           </div><hr/>
           <div className='existing-Acct'>
-            <p>I Already Have an Account <span><Link to='/userLogin'>Login</Link></span></p>
+            <p>I Already Have an Account <span><Link to='/TutorLogin'>Login</Link></span></p>
           </div>
           <div className='register-btn'>
             <button className='btn-reg'>Register</button>
@@ -64,4 +71,4 @@ const Register = () => {
   )
 }
 
-export default Register
+export default TutorRegister 
